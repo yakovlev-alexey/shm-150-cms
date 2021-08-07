@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "events",
   "info": {
-    "name": "Event"
+    "name": "Event",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,6 +23,9 @@
     },
     "content": {
       "type": "text"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
