@@ -21,9 +21,6 @@
     "cardSubtitle": {
       "type": "text"
     },
-    "content": {
-      "type": "text"
-    },
     "order": {
       "type": "integer"
     },
@@ -50,6 +47,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
