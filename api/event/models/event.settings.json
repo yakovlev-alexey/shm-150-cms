@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardSubtitle": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}
