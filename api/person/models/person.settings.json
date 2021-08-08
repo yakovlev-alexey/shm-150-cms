@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "person",
   "info": {
-    "name": "person"
+    "name": "person",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,7 +22,8 @@
       "type": "enumeration",
       "enum": [
         "founder",
-        "supporter"
+        "supporter",
+        "worker"
       ],
       "default": "founder"
     },
